@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pac-Man Clone</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #000;
+        color: #fff;
+        font-family: Arial, sans-serif;
+      }
+
+      canvas {
+        border: 2px solid #1f1f1f;
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game" width="448" height="576" aria-label="Pac-Man game board"></canvas>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
