@@ -28,5 +28,5 @@ Make sure you have the required environment set up depending on your implementat
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/USERNAME/pacman-clone.git](https://github.com/USERNAME/pacman-clone.git)
+   git clone https://github.com/AnsB256/Pac_Man-clone.git
    cd pacman-clone
